@@ -1,0 +1,156 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <!-- SMALL GRID -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-The-Creeper-Caldera</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:180]
+        [ThreatScoreMaximum:1500]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+        [ReplenishProfiles:UraniumB]
+
+        [ManipulationGroups:Manipulation-Group-SG-VH]
+
+        [PlanetWhitelist:Caldera]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-The-Creeper">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-The-Siren-Call-Caldera</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:180]
+        [ThreatScoreMaximum:1500]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-VH]
+
+        [PlanetWhitelist:Caldera]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-The-Siren-Call">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-The-PeaceKeeper-Caldera</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:180]
+        [ThreatScoreMaximum:1500]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-VH]
+
+        [PlanetWhitelist:Caldera]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-The-PeaceKeeper">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

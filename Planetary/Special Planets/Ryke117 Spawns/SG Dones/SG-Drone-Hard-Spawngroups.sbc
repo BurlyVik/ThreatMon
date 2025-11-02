@@ -1,0 +1,463 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <!-- SMALL GRID -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Argonaut-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+        [ReplenishProfiles:UraniumB]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Argonaut">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Axel-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Axel">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Droney-McDrone-Face-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Droney-McDrone-Face">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Ravager-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Ravager">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Sentinel-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Sentinel">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Eat-Lead-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Eat-Lead">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Blackmail-Drone-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Blackmail-Drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Strike-Drone-Mk.II-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]		[ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Strike-Drone-Mk.II">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Here-Comes-the-Thunder-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:250]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-SG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Here-Comes-the-Thunder">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

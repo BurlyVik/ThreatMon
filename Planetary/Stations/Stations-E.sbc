@@ -1,0 +1,708 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Cargo-Depot</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-CargoDepot">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Green-One-Outpost</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-GreenOneOutpost">
+          <Position>
+            <X>0.0</X>
+            <Y>5.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Grow-Op-Outpost</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-GrowOpOutpost">
+          <Position>
+            <X>0.0</X>
+            <Y>5.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Hydrogen-Depot</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-HydrogenDepot">
+          <Position>
+            <X>0.0</X>
+            <Y>2.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Last-Hope-Outpost</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-LastHopeOutpost">
+          <Position>
+            <X>0.0</X>
+            <Y>14.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Lost-Expeditionary-Rover</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-LostExpeditionaryRover">
+          <Position>
+            <X>0.0</X>
+            <Y>20.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Outpost-Alpha</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-OutpostAlpha">
+          <Position>
+            <X>0.0</X>
+            <Y>8.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Outpost-Bravo</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-OutpostBravo">
+          <Position>
+            <X>0.0</X>
+            <Y>8.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Outpost-Charlie</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-OutpostCharlie">
+          <Position>
+            <X>0.0</X>
+            <Y>5.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Outpost-Delta</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-OutpostDelta">
+          <Position>
+            <X>0.0</X>
+            <Y>15.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Refueling-Station</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Refueling-Station">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Relay-Station</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Relay-Station">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Fueling-Station</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Fueling-Station">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Cargo-Station</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Cargo-Station">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Industry-Station</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Industry-Station">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Way-Station</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:false]
+        [SkipTerrainCheck:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Stations-E]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Way-Station">
+          <Position>
+            <X>0.0</X>
+            <Y>11.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Planet-Station-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

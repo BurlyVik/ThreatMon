@@ -1,0 +1,268 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Alpha-One-AG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-HardWrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Alpha-One_AG">
+          <Position>
+            <X>0.0</X>
+            <Y>4.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Brick-Gattler-AG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Brick-Gattler_AG">
+          <Position>
+            <X>0.0</X>
+            <Y>3.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Dart-AG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Dart_AG">
+          <Position>
+            <X>0.0</X>
+            <Y>3.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Psi-Scout-AG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:75]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Psi-Scout_AG">
+          <Position>
+            <X>0.0</X>
+            <Y>1.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Serial-1-AG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:75]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Serial-1_AG">
+          <Position>
+            <X>0.0</X>
+            <Y>1.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Turtle-Tank-AG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:75]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+
+        [WeaponSystem:Weapons-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Turtle-Tank_AG">
+          <Position>
+            <X>0.0</X>
+            <Y>1.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

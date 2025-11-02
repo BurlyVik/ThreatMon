@@ -1,0 +1,55 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Easy-Drones-Spawner-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Spawn]
+
+        [StartsReady:true]
+        [UseSpawn:true]
+        [MaxSpawns:2]
+
+        [UseRelativeSpawnPosition:false]
+
+        [MinDistance:1000]
+        [MaxDistance:1300]
+
+        [MinAltitude:100]
+        [MaxAltitude:1000]
+
+        [SpawnGroups:AIDR-Bee]
+        [SpawnGroups:AIDR-Mavic]
+        [SpawnGroups:AIDR-Poks]
+        [SpawnGroups:AIDR-Razor]
+        [SpawnGroups:AIDR-Scrappy]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Medium-Drones-Spawner-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Spawn]
+
+        [StartsReady:true]
+        [UseSpawn:true]
+        [MaxSpawns:2]
+
+        [UseRelativeSpawnPosition:false]
+
+        [MinDistance:1000]
+        [MaxDistance:1300]
+
+        [MinAltitude:100]
+        [MaxAltitude:1000]
+
+        [SpawnGroups:AIDR-Lone-Lotus]
+        [SpawnGroups:AIDR-Muckie]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

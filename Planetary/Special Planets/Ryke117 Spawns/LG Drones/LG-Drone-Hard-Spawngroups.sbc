@@ -1,0 +1,105 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <!-- LARGE DRONE HARD -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Filthy-Falcon-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:1000]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-LG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Filthy-Falcon">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Screaming-Widow-Ryke117</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:1000]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+
+        [ManipulationGroups:Manipulation-Group-LG-H]
+
+        [PlanetWhitelist:Ryke117]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Screaming-Widow">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Medium-Planet-Special</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

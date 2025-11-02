@@ -1,0 +1,319 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Falco-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Falco_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Nat-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Nat_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Scrap-Rat-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Scrap-Rat_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Serial-1-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:75]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Serial-1_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Scout-3-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:75]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Scout-3_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Tick-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+
+        [WeaponSystem:Weapons-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Tick_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Tunnel-Rat-UG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+        [RotateInstallations:{X:100 Y:100 Z:100}]
+        [ForceStaticGrid:true]
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [FactionOwner:AIDR]
+        [UseRivalAi:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+
+        [WeaponSystem:Weapons-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Tunnel-Rat_UG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

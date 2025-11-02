@@ -1,0 +1,158 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <!-- SMALL GRID MEDIUM SPACE -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Lone-Lotus-Space</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [ZoneConditions:Zone-Space]
+
+        [SpaceCargoShip:false]
+        [SpaceRandomEncounter:true]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [GravityCargoShip:false]
+        [PlanetaryCargoShip:false]
+        [PlanetaryInstallation:false]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [RivalAISpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+        [ManipulationGroups:Manipulation-Group-M1]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Lone-Lotus">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Space</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Observer-Space</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [ZoneConditions:Zone-Space]
+
+        [SpaceCargoShip:false]
+        [SpaceRandomEncounter:true]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [GravityCargoShip:false]
+        [PlanetaryCargoShip:false]
+        [PlanetaryInstallation:false]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [RivalAISpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+        [ManipulationGroups:Manipulation-Group-M1]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Observer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Space</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Oculus-Space</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [ZoneConditions:Zone-Space]
+
+        [SpaceCargoShip:false]
+        [SpaceRandomEncounter:true]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [GravityCargoShip:false]
+        [PlanetaryCargoShip:false]
+        [PlanetaryInstallation:false]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:150]
+
+        [RivalAISpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+        [ReplenishProfiles:Easy-Drones-Replenishment-AutoCannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Assault-Cannon]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Artillery]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Missile]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Small-Railgun]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Large-Railgun]
+        [ManipulationGroups:Manipulation-Group-M1]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Oculus">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Space</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

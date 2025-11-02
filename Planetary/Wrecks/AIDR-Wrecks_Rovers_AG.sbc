@@ -1,0 +1,455 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-ATV-Duster</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-ATVDuster">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-H2-Scout</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-H2Scout">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Land-Speeder</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-LandSpeeder">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Ranger-Scout</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-RangerScout">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Staff-Rover</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-StaffRover">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Transport-Truck</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
+        [PlanetWhitelist:Corpus,Greer,Mora]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-Wrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-TransportTruck">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-CargoTransportTruck</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:100]
+
+        [PlanetWhitelist:Mora,Tohil]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-HardWrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-CargoTransportTruck">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-M117SecurityJeep</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:100]
+
+        [PlanetWhitelist:Mora,Tohil]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-HardWrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-M117SecurityJeep">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-MarauderLightPatrolVehicle</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:100]
+
+        [PlanetWhitelist:Mora,Tohil]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-HardWrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-MarauderLightPatrolVehicle">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-ReconRover</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:100]
+
+        [PlanetWhitelist:Mora,Tohil]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-HardWrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-ReconRover">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-RustyJeep</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [SkipVoxelSpawnChecks:true]
+        [SkipTerrainCheck:true]
+
+        [FactionOwner:AIDR]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:50]
+        [ThreatScoreMaximum:100]
+
+        [PlanetWhitelist:Mora,Tohil]
+
+        [WeaponSystem:Weapons-Wrecks]
+
+        [ManipulationGroups:Manipulation-Group-HardWrecks]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-RustyJeep">
+          <Position>
+            <X>0.0</X>
+            <Y>0.5</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>AIDR-Wrecks-Behavior</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

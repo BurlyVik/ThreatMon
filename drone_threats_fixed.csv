@@ -1,0 +1,229 @@
+SubtypeId,MinThreatLevel,MaxThreatLevel,Planets
+AIDR-Bullship,75,200,Mora; Kimi; Tohil
+AIDR-Honey-Badger,75,200,Mora; Kimi; Tohil
+AIDR-Jail-Bait,75,200,Mora; Kimi; Tohil
+AIDR-Lone-Reaver,75,200,Mora; Kimi; Tohil
+AIDR-Nightflyer,75,200,Mora; Kimi; Tohil
+AIDR-Woodpecker,75,200,Mora; Kimi; Tohil
+AIDR-Filthy-Falcon,240,,Tohil
+AIDR-When-Life-Gives-You-Lemons,240,,Tohil
+AIDR-Size-Isn't-Everything,240,,Tohil
+AIDR-Screaming-Widow,240,,Tohil
+AIDR-Malhavoc's-DreamCatcher,240,,Tohil
+AIDR-Blackbird-Hunter,100,,Mora; Tohil; Kimi
+AIDR-Blue-Reaper,100,,Mora; Tohil; Kimi
+AIDR-First-Recon,100,,Mora; Tohil; Kimi
+AIDR-Purple-Haze,75,,Mora; Tohil; Kimi
+AIDR-Serpent's-Fury,75,,Mora; Tohil; Kimi
+AIDR-Bee-Starter,75,150,Corpus; Greer
+AIDR-Mavic-Starter,75,150,Corpus; Greer
+AIDR-Poks-Starter,75,150,Corpus; Greer
+AIDR-Razor-Starter,75,150,Corpus; Greer
+AIDR-Scrappy-Starter,75,150,Corpus; Greer
+AIDR-Droney-McDrone-Face,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Ravager,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Sentinel,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Eat-Lead,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Blackmail-Drone,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Strike-Drone-Mk.II,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Here-Comes-the-Thunder,300,500,Mora; Tohil; Kimi; Corpus; Greer
+AIDR-Lone-Lotus-Starter,100,350,Corpus; Greer; Mora; Tohil
+AIDR-Observer-Starter,75,350,Corpus; Greer; Mora; Tohil
+AIDR-Oculus-Scout,75,350,Corpus; Greer; Mora; Tohil
+AIDR-The-Creeper,400,,Kimi; Tohil
+AIDR-The-Siren-Call,400,,Kimi; Tohil
+AIDR-The-PeaceKeeper,400,,Kimi; Tohil
+AIDR-Bee,,,
+AIDR-Mavic,,,
+AIDR-Poks,,,
+AIDR-Razor,,,
+AIDR-Scrappy,,,
+AIDR-Lone-Lotus,,,
+AIDR-Muckie,,,
+AIDR-Filthy-Falcon-Caldera,200,,Caldera
+AIDR-Screaming-Widow-Caldera,200,,Caldera
+AIDR-Blackbird-Hunter-Caldera,100,800,Caldera
+AIDR-Blue-Reaper-Caldera,100,800,Caldera
+AIDR-First-Recon-Caldera,100,800,Caldera
+AIDR-Purple-Haze-Caldera,100,800,Caldera
+AIDR-Serpent's-Fury-Caldera,100,800,Caldera
+AIDR-Argonaut-Caldera,100,1000,Caldera
+AIDR-Axel-Caldera,100,1000,Caldera
+AIDR-Droney-McDrone-Face-Caldera,100,1000,Caldera
+AIDR-Ravager-Caldera,100,1000,Caldera
+AIDR-Sentinel-Caldera,100,1000,Caldera
+AIDR-Eat-Lead-Caldera,100,1000,Caldera
+AIDR-Blackmail-Drone-Caldera,100,1000,Caldera
+AIDR-Strike-Drone-Mk.II-Caldera,100,1000,Caldera
+AIDR-Here-Comes-the-Thunder-Caldera,100,1000,Caldera
+AIDR-Kipper-Caldera,0,100,Caldera
+AIDR-Lone-Lotus-Caldera,0,100,Caldera
+AIDR-Observer-Caldera,0,100,Caldera
+AIDR-Oculus-Caldera,0,100,Caldera
+AIDR-The-Creeper-Caldera,180,1500,Caldera
+AIDR-The-Siren-Call-Caldera,180,1500,Caldera
+AIDR-The-PeaceKeeper-Caldera,180,1500,Caldera
+AIDR-The-Birds-Nest-Caldera,250,,Caldera
+AIDR-Power-Plant-Caldera,250,,Caldera
+AIDR-Human-Bio-Research-Caldera,250,,Caldera
+AIDR-Fort-WildThings-Caldera,250,,Caldera
+AIDR-Fort-Up-Yours-Caldera,250,,Caldera
+AIDR-Bio-Gardens-Research-Caldera,0,250,Caldera
+AIDR-LG-Cargo-Depot-Caldera,0,250,Caldera
+AIDR-Comms-Uplink-Station-Caldera,0,250,Caldera
+AIDR-Drone-Recon-Station-Caldera,0,250,Caldera
+AIDR-Hydro-Refuel-Depot-Caldera,0,250,Caldera
+AIDR-Ice-Fuel-Depot-Caldera,0,250,Caldera
+AIDR-Offline-Production-Facility-Caldera,0,250,Caldera
+AIDR-Outpost-13-Caldera,0,250,Caldera
+AIDR-Security-Depot-Caldera,0,250,Caldera
+AIDR-Spot-and-Squat-Post-Caldera,0,250,Caldera
+AIDR-Droney-McDrone-Face-Starter,300,,Corpus; Greer
+AIDR-Ravager-Starter,300,,Corpus; Greer
+AIDR-Sentinel-Starter,300,,Corpus; Greer
+AIDR-Eat-Lead-Starter,300,,Corpus; Greer
+AIDR-Blackmail-Drone-Starter,300,,Corpus; Greer
+AIDR-Strike-Drone-Mk.II-Starter,300,,Corpus; Greer
+AIDR-Here-Comes-the-Thunder-Starter,300,,Corpus; Greer
+AIDR-Shadow-Synth,150,,Ryke117
+AIDR-Hive-Patrol-Vessel,150,,Ryke117
+AIDR-Hedge's-Booty-Patrol,150,,Ryke117
+AIDR-Filthy-Falcon-Ryke117,50,1000,Ryke117
+AIDR-Screaming-Widow-Ryke117,50,1000,Ryke117
+AIDR-Archille-Ryke117,300,,Ryke117
+AIDR-Gambit-Ryke117,300,,Ryke117
+AIDR-Porro-Ryke117,300,,Ryke117
+AIDR-Shadow-Claw-Ryke117,300,,Ryke117
+AIDR-Zephyr-Ryke117,300,,Ryke117
+AIDR-Argonaut-Ryke117,0,250,Ryke117
+AIDR-Axel-Ryke117,0,250,Ryke117
+AIDR-Droney-McDrone-Face-Ryke117,0,250,Ryke117
+AIDR-Ravager-Ryke117,0,250,Ryke117
+AIDR-Sentinel-Ryke117,0,250,Ryke117
+AIDR-Eat-Lead-Ryke117,0,250,Ryke117
+AIDR-Blackmail-Drone-Ryke117,0,250,Ryke117
+AIDR-Strike-Drone-Mk.II-Ryke117,0,250,Ryke117
+AIDR-Here-Comes-the-Thunder-Ryke117,0,250,Ryke117
+AIDR-The-Creeper-Ryke117,200,,Ryke117
+AIDR-The-Siren-Call-Ryke117,200,,Ryke117
+AIDR-The-PeaceKeeper-Ryke117,200,,Ryke117
+AIDR-Adv-Ice-Refinery-Facility,300,,Ryke117
+AIDR-The-Bone-Pile-Bunker,300,,Ryke117
+AIDR-Vox-Processing-and-Assembly-Plant,300,,Ryke117
+AIDR-The-Birds-Nest-Ryke117,50,300,Ryke117
+AIDR-Power-Plant-Ryke117,50,300,Ryke117
+AIDR-Human-Bio-Research-Ryke117,50,300,Ryke117
+AIDR-Fort-WildThings-Ryke117,50,300,Ryke117
+AIDR-Fort-Up-Yours-Ryke117,50,300,Ryke117
+AIDR-Cargo-Depot,0,150,Corpus; Greer
+AIDR-Green-One-Outpost,0,150,Corpus; Greer
+AIDR-Grow-Op-Outpost,0,150,Corpus; Greer
+AIDR-Hydrogen-Depot,0,150,Corpus; Greer
+AIDR-Last-Hope-Outpost,0,150,Corpus; Greer
+AIDR-Lost-Expeditionary-Rover,0,150,Corpus; Greer
+AIDR-Outpost-Alpha,0,150,Corpus; Greer
+AIDR-Outpost-Bravo,0,150,Corpus; Greer
+AIDR-Outpost-Charlie,0,150,Corpus; Greer
+AIDR-Outpost-Delta,0,150,Corpus; Greer
+AIDR-Refueling-Station,0,150,Corpus; Greer
+AIDR-Relay-Station,0,150,Corpus; Greer
+AIDR-Fueling-Station,0,150,Corpus; Greer
+AIDR-Cargo-Station,0,150,Corpus; Greer
+AIDR-Industry-Station,0,150,Corpus; Greer
+AIDR-Way-Station,0,150,Corpus; Greer
+AIDR-The-Birds-Nest,180,275,Mora; Tohil
+AIDR-Power-Plant,180,275,Mora; Tohil
+AIDR-Human-Bio-Research,180,275,Mora; Tohil
+AIDR-Fort-WildThings,180,275,Mora; Tohil
+AIDR-Fort-Up-Yours,180,275,Mora; Tohil
+AIDR-Bio-Gardens-Research,0,150,Mora; Tohil
+AIDR-LG-Cargo-Depot,0,150,Mora; Tohil
+AIDR-Comms-Uplink-Station,0,150,Mora; Tohil
+AIDR-Drone-Recon-Station,0,150,Mora; Tohil
+AIDR-Hydro-Refuel-Depot,0,150,Mora; Tohil
+AIDR-Ice-Fuel-Depot,0,150,Mora; Tohil
+AIDR-Offline-Production-Facility,0,150,Mora; Tohil
+AIDR-Outpost-13,0,150,Mora; Tohil
+AIDR-Security-Depot,0,150,Mora; Tohil
+AIDR-Spot-and-Squat-Post,0,150,Mora; Tohil
+AIDR-Alpha-One-AG,0,150,Corpus; Greer; Mora
+AIDR-Brick-Gattler-AG,0,150,Corpus; Greer; Mora
+AIDR-Dart-AG,0,50,Corpus; Greer; Mora
+AIDR-Psi-Scout-AG,0,75,Corpus; Greer; Mora
+AIDR-Serial-1-AG,0,75,Corpus; Greer; Mora
+AIDR-Turtle-Tank-AG,0,75,Corpus; Greer; Mora
+AIDR-ATV-Duster,0,50,Corpus; Greer; Mora
+AIDR-H2-Scout,0,50,Corpus; Greer; Mora
+AIDR-Land-Speeder,0,50,Corpus; Greer; Mora
+AIDR-Ranger-Scout,0,50,Corpus; Greer; Mora
+AIDR-Staff-Rover,0,50,Corpus; Greer; Mora
+AIDR-Transport-Truck,0,50,Corpus; Greer; Mora
+AIDR-CargoTransportTruck,50,100,Mora; Tohil
+AIDR-M117SecurityJeep,50,100,Mora; Tohil
+AIDR-MarauderLightPatrolVehicle,50,100,Mora; Tohil
+AIDR-ReconRover,50,100,Mora; Tohil
+AIDR-RustyJeep,50,100,Mora; Tohil
+AIDR-Falco-UG,0,150,Corpus; Greer; Mora
+AIDR-Nat-UG,0,50,Corpus; Greer; Mora
+AIDR-Scrap-Rat-UG,0,50,Corpus; Greer; Mora
+AIDR-Serial-1-UG,0,75,Corpus; Greer; Mora
+AIDR-Scout-3-UG,0,75,Corpus; Greer; Mora
+AIDR-Tick-UG,0,50,Corpus; Greer; Mora
+AIDR-Tunnel-Rat-UG,0,50,Corpus; Greer; Mora
+AIDR-Shadow-Synth-Space,350,,
+AIDR-Hive-Patrol-Vessel-Space,350,,
+AIDR-Hedge's-Flagship-Space,350,,
+AIDR-Hedge's-Booty-Patrol-Space,350,,
+AIDR-When-Life-Gives-You-Lemons-Space,250,1000,
+AIDR-Size-Isn't-Everything-Space,250,1000,
+AIDR-Screaming-Widow-Space,250,1000,
+AIDR-Malhavoc's-DreamCatcher-Space,250,1000,
+AIDR-Filthy-Falcon-Space,250,1000,
+AIDR-Blackbird-Hunter-Space,150,350,
+AIDR-Blue-Reaper-Space,150,350,
+AIDR-First-Recon-Space,150,350,
+AIDR-Nemesis-Space,150,350,
+AIDR-Purple-Haze-Space,150,350,
+AIDR-Serpent's-Fury-Space,150,350,
+AIDR-Ship-Breaker-Space,150,350,
+AIDR-Tardis-Hauler-Space,150,350,
+AIDR-Scorpio-Space,300,,
+AIDR-Devastator-Space,300,,
+AIDR-Stryker-Space,300,,
+AIDR-Stryker-2-Space,300,,
+AIDR-Argonaut-Space,150,300,
+AIDR-Axel-Space,150,300,
+AIDR-Droney-McDrone-Face-Space,150,300,
+AIDR-Ravager-Space,150,300,
+AIDR-Sentinel-Space,150,300,
+AIDR-Blackmail-Drone-Space,150,300,
+AIDR-The-Silent-Hunter-Space,150,300,
+AIDR-Strike-Drone-Mk.II-Space,150,300,
+AIDR-Here-Comes-the-Thunder-Space,150,300,
+AIDR-Eat-Lead-Space,150,300,
+AIDR-Lone-Lotus-Space,0,150,
+AIDR-Observer-Space,0,150,
+AIDR-Oculus-Space,0,150,
+AIDR-Archille-Space,200,850,
+AIDR-Gambit-Space,200,850,
+AIDR-Porro-Space,200,850,
+AIDR-Shadow-Claw-Space,200,850,
+AIDR-Zephyr-Space,200,850,
+AIDR-Vengeance-Sphere-Space,200,850,
+AIDR-Totally-Defenceless-Space,200,850,
+AIDR-The-Creeper-Space,200,850,
+AIDR-The-Siren-Call-Space,200,850,
+AIDR-The-PeaceKeeper-Space,200,850,
+AIDR-Crimson-Terror-Space,200,850,
+AIDR-Advanced-Drone-Research-Facility,250,,
+AIDR-Capital-Refill-Station,250,,
+AIDR-Mining-Station,250,,
+AIDR-Satellite-Relay-Station,250,,
+AIDR-Staging-Outpost,250,,
+AIDR-Subspace-Power-Station,250,,
+AIDR-Defence-Platform,,100,
+AIDR-O2H2-Space-Depot,,100,
+AIDR-Satellite-Relay,,100,
+AIDR-Storage-Relay-Station,,100,
+AIDR-Terror-Guard-Outpost,,100,
+AIDR-Weapons-Platform,,100,

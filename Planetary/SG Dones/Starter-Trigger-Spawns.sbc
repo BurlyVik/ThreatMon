@@ -1,0 +1,220 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <!-- EASY TRIGGER SPAWNS -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Bee</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Bee">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-E-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Mavic</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Mavic">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-E-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Poks</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Poks">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-E-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Razor</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Razor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-E-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Scrappy</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Scrappy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-E-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <!-- MEDIUM TRIGGER SPAWNS -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Lone-Lotus</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-M1-Starter]
+
+        [ManipulationProfiles:Lift-Thrust-B]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Lone-Lotus">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-M-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Muckie</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-M1-Starter]
+
+        [ManipulationProfiles:Lift-Thrust-B]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Muckie">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-M-Spawn</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

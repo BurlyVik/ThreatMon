@@ -1,0 +1,224 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Bee-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:75]
+        [ThreatScoreMaximum:150]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+
+        [PlanetWhitelist:Corpus,Greer]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Bee">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Planet</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Mavic-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:75]
+        [ThreatScoreMaximum:150]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+
+        [PlanetWhitelist:Corpus,Greer]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Mavic">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Planet</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Poks-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:75]
+        [ThreatScoreMaximum:150]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+
+        [PlanetWhitelist:Corpus,Greer]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Poks">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Planet</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Razor-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:75]
+        [ThreatScoreMaximum:150]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+
+        [PlanetWhitelist:Corpus,Greer]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Razor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Planet</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>AIDR-Scrappy-Starter</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+
+        [PlanetaryCargoShip:true]
+        [LunarCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [SkipAirDensityCheck:true]
+        [GravityCargoShip:true]
+        [DisableDampeners:false]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:2500]
+        [ThreatScoreMinimum:75]
+        [ThreatScoreMaximum:150]
+
+        [FactionOwner:AIDR]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+        [ReplenishProfiles:Easy-Drones-Replenishment-Gatling]
+
+        [ManipulationGroups:Manipulation-Group-E1-Starter]
+
+        [PlanetWhitelist:Corpus,Greer]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="AIDR-Scrappy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>CargoShip-Behavior-Basic-Planet</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>
